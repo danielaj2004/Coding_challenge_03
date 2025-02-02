@@ -26,3 +26,12 @@ let employee = {
 employee.performanceScore = 90; // Outout: increase the performance score by 10
 employee.promotionEligible = true; // add a new proptery to the object
 console.log("Updated employee: ", employee); // Output: the updated object
+
+// Task 4
+let feedback = [
+    {customerName: "Marcus", feedbackText: "Fair service", rating: 3},
+    {customerName: "Abby", feedbackText: "Good Experience", rating: 4},
+    {customerName: "Nicole", feedbackText: "Okay Service", rating: 3}
+]; // Output: feedbacks array
+feedback.push({customerName: "Bill", feedbackText: "Poor service", rating: 2}); // add new feeback comment to the end of the array
+console.log("Updated Feedbacks", feedback); // Output: updated array of feedbacks
