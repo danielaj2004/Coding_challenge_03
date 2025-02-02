@@ -35,3 +35,15 @@ let feedback = [
 ]; // Output: feedbacks array
 feedback.push({customerName: "Bill", feedbackText: "Poor service", rating: 2}); // add new feeback comment to the end of the array
 console.log("Updated Feedbacks", feedback); // Output: updated array of feedbacks
+
+// Task 5
+let inventory = {
+    itemName: "Chocolate",
+    stockcount: 200,
+    price: 1.00,
+    calculateTotalValue: function() {
+        return this.stockcount * this.price;
+    }
+}; // Output: Inventory object
+console.log(inventory); // Output: inventory details
+console.log("Total Inventory value: ", inventory.calculateTotalValue()); // Output: the total value of the inventory
